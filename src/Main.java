@@ -5,6 +5,11 @@ import java.util.Random;
 import java.util.Set;
 
 public class Main {
+	/**
+	 * @CITATIONS:
+	 * I worked in a group with Kathryn and Zachary, until we talked to Anya and decided we would be better suited
+	 * working alone.
+	 */
 
 	/**
 	 * @param args
@@ -24,7 +29,7 @@ public class Main {
 	}
 	
 	/**
-	 * Problem 2 Part A
+	 * Problem 2 Part 1: Closest-Point-Next
 	 * @param pointsToVisit: the set of points in the problem
 	 * @return a list containing points organized by the closest path algorithm
 	 */
@@ -51,7 +56,7 @@ public class Main {
 	}
 	
 	/**
-	 * Problem 2 Part B
+	 * Problem 2 Part 2: Diagonal Sweep method
 	 * @param pointsToVisit: the set of points in the problem
 	 * @return a list containing points organized by the diagonal path algorithm
 	 */
@@ -62,7 +67,7 @@ public class Main {
 	}
 	
 	/**
-	 * Problem 2 Part C
+	 * Problem 2 Part 3: Select points in random order
 	 * @param pointsToVisit: the set of points in the problem
 	 * @return a list containing points organized by the random path algorithm
 	 */
@@ -77,5 +82,13 @@ public class Main {
 			pointsToVisitList.remove(index);
 		}
 		return path;
+	}
+
+	/**
+	 * Problem 2 Part 4: A "Maddie" method
+	 */
+	public static List<Point> maddiePathFinder(Set<Point> pointsToVisit) {
+		List<Point> path = new ArrayList<~>();
+
 	}
 }
