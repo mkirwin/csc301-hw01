@@ -143,6 +143,9 @@ public class Main {
         return totalDist;
     }
 
+    /**
+    * FINAL PART OF THE HOMEWORK!
+    */
     public static void testLastPart() {
         List<Set<Point>> pointSets = new ArrayList<Set<Point>>();
         // Add random point sets to a set of point sets.
