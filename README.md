@@ -1,4 +1,4 @@
-#Homework 01 - CSC 301
+# Homework 01 - CSC 301
 ## Maddie Kirwin
 
 ### Citations
